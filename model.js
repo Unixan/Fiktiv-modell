@@ -7,8 +7,8 @@ const model = {
   login: { loginId: "", loginPwd: "" },
   createQuestion: {
     questionTxt: "",
+    questionType: "",
     alternatives: [],
-    freeText: false,
   },
   //data
   questions: [
