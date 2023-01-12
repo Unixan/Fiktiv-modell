@@ -1,14 +1,16 @@
 const model = {
-  //state, login adminView createQuestion answerQuestion answerSent
-  app: { state: "login" },
+  //state
+  state: "login",
   loggedInUser: "",
 
   //input
-  login: { loginId: "", loginPwd: "" },
-  createQuestion: {
-    questionTxt: "",
-    questionType: "",
-    alternatives: [],
+  input: {
+    login: { loginId: "", loginPwd: "" },
+    createQuestion: {
+      questionTxt: "",
+      questionType: "",
+      alternatives: [],
+    },
   },
   //data
   questions: [
